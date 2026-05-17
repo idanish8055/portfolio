@@ -491,6 +491,12 @@ body {
   border-color: #18f2c2;
 }
 
+.form-status {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
 .footer {
   border-top: 1px solid rgba(255,255,255,0.08);
   padding: 3rem 0;

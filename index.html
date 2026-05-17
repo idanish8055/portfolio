@@ -511,15 +511,16 @@
                 </div>
                 </div>
 
-                <form class="contact-form">
-                <input type="text" placeholder="Your Name" required />
-                <input type="email" placeholder="Your Email" required />
-                <input type="text" placeholder="Subject" required />
-                <textarea rows="6" placeholder="Your Message"></textarea>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="Your Name" required name="name"/>
+                    <input type="email" placeholder="Your Email" required name="email"/>
+                    <input type="text" placeholder="Subject" required name="subject"/>
+                    <textarea rows="6" placeholder="Your Message" name="message"></textarea>
 
-                <button type="submit" class="btn primary-btn">
-                    Send Message
-                </button>
+                    <button type="submit" class="btn primary-btn">
+                        Send Message
+                    </button>
+                    <p class="form-status"></p>
                 </form>
             </div>
             </div>
@@ -545,6 +546,8 @@
         </footer>
 
         <script src="script.js"></script>
+        <script src="contact.js"></script>
+
         <script async type='text/javascript' src='https://static.klaviyo.com/onsite/js/TjBuVx/klaviyo.js?company_id=TjBuVx'></script>
         <script type="text/javascript"> 
           //Initialize Klaviyo object on page load
