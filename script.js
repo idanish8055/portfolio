@@ -85,18 +85,6 @@ window.addEventListener('scroll', () => {
 });
 
 /* =========================
-   PARALLAX EFFECT
-========================= */
-
-window.addEventListener('scroll', () => {
-  const scrolled = window.pageYOffset;
-
-  document.querySelectorAll('.project-image img').forEach(img => {
-    img.style.transform = `translateY(${scrolled * 0.02}px) scale(1.05)`;
-  });
-});
-
-/* =========================
    MOUSE GLOW EFFECT
 ========================= */
 
